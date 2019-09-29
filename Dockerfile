@@ -1,6 +1,6 @@
 FROM haproxy:2.0.5-alpine
 
-LABEL maintainer="Peling <lampard999999999@gmail.com>"
+LABEL maintainer="Lampard <lampard999999999@gmail.com>"
 
 ARG KEEPALIVED_VERSION=2.0.18
 
