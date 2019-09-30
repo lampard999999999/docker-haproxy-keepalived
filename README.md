@@ -8,7 +8,7 @@ HAProxy (2.0.5) with Keepalived (2.0.18) base on Docker
 -   **haproxy_log**: haproxy will print log with rsyslog to  `/var/log/haproxy.log`.
     
 
-## Usage ([DockerHub]([https://hub.docker.com/r/lampard999999999/haproxy-keepalived]))
+## Usage
 
 This image use host config file, and then run it:
 
