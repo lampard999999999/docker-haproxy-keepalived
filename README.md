@@ -17,8 +17,9 @@ docker run -it -d --net=host --privileged \
     -v ${HAPROXY_CONFIG_FILE}:/usr/local/etc/haproxy/haproxy.cfg \
     -v ${KEEPALIVED_CONFIG_FILE}:/etc/keepalived/keepalived.conf \
     --name haproxy-keepalived \
-    pelin/haproxy-keepalived
+    lampard999999999/haproxy-keepalived
 ```
+
 
 ## Example
 
@@ -83,7 +84,7 @@ docker run -it -d --net=host --privileged \
     -v /data/haproxy.cfg:/usr/local/etc/haproxy/haproxy.cfg \
     -v /data/keepalived.conf:/etc/keepalived/keepalived.conf \
     --name haproxy-keepalived \
-    pelin/haproxy-keepalived
+    lampard999999999/haproxy-keepalived
 ```
 
 You can use  `docker logs -f haproxy-keepalived`  to look.
