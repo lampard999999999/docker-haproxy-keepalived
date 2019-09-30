@@ -24,7 +24,7 @@ docker run -it -d --net=host --privileged \
 
 haproxy.cfg:
 
-```
+```bash
 global
     daemon
     maxconn 30000
@@ -48,7 +48,7 @@ listen stats
 
 keepalived.conf
 
-```
+```bash
 vrrp_script chk_haproxy {
     script "/usr/local/bin/chk_haproxy.sh"
     interval 2
