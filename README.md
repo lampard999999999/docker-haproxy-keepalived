@@ -38,7 +38,6 @@ defaults
     timeout client 1800000
     timeout server 1800000
     timeout check 1000
-    log-format %ci\ [id=%ID]\ [%t]\ %f\ %b/%s\ %Tq/%Tw/%Tc/%Tr/%Tt\ %ST\ %B\ %CC\ %CS\ %tsc\ %ac/%fc/%bc/%sc/%rc\ %sq/%bq\ {%hrl}\ {%hsl}\ %{+Q}r
 
 listen stats
     bind *:1080
